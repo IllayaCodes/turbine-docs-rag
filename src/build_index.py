@@ -33,6 +33,9 @@ def main():
     print(f"The model reads at most {limit} tokens per chunk")
     print(f"Chunks longer than that: {too_long} of {len(texts)} (longest: {max(token_counts)} tokens)")
 
+    long_ids = [chunks[i]["chunk_id"] for i, n in enumerate(token_counts) if n > limit]
+    print("Too-long chunks:", ", ".join(long_ids))
+
     embeddings = model.encode(
         texts,
         batch_size=BATCH_SIZE,

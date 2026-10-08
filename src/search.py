@@ -10,7 +10,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 CHUNKS_DIR = Path("data/chunks")
 INDEX_DIR = Path("data/index")
 TOP_K = 5
-SNIPPET_CHARS = 300
+SNIPPET_CHARS = 700
 
 
 def load_index(strategy):
