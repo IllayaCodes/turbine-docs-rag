@@ -52,7 +52,8 @@ def main():
     strategy = sys.argv[1] if len(sys.argv) > 1 else "sentences"
     label = sys.argv[2] if len(sys.argv) > 2 else strategy + "_methods"
 
-    questions = json.loads(QUESTIONS_FILE.read_text(encoding="utf-8"))
+    questions_file = EVAL_DIR / (sys.argv[3] if len(sys.argv) > 3 else "questions.json")
+    questions = json.loads(questions_file.read_text(encoding="utf-8"))
     chunks, embeddings, meta = load_index(strategy)
     model = SentenceTransformer(meta["model"])
     bm25 = BM25Okapi([tokenize(c["text"]) for c in chunks])
