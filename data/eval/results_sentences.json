@@ -1,0 +1,254 @@
+{
+  "label": "sentences",
+  "model": "all-MiniLM-L6-v2",
+  "chunks": 234,
+  "metrics": {
+    "hit@1": 0.475,
+    "hit@3": 0.725,
+    "hit@5": 0.825,
+    "hit@10": 0.875,
+    "mrr@10": 0.6244047619047619
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "question": "What frequency do the first generation microwave probes operate at, and how far can they measure?",
+      "rank": 2,
+      "top_chunk": "20100025863_p6_c6"
+    },
+    {
+      "id": "q02",
+      "question": "What temperature are the microwave blade tip clearance probes designed to operate at?",
+      "rank": 6,
+      "top_chunk": "20100025863_p7_c1"
+    },
+    {
+      "id": "q03",
+      "question": "What clearance accuracy is the microwave sensor technology ultimately aiming for?",
+      "rank": 39,
+      "top_chunk": "20100025863_p17_c2"
+    },
+    {
+      "id": "q04",
+      "question": "What share of in-flight engine shutdowns is caused by blade damage in the turbine and compressor sections?",
+      "rank": 7,
+      "top_chunk": "19850018596_p5_c2"
+    },
+    {
+      "id": "q05",
+      "question": "What was the largest error after calibrating the microwave probes on the NASA turbofan?",
+      "rank": 4,
+      "top_chunk": "20100025863_p16_c2"
+    },
+    {
+      "id": "q06",
+      "question": "How many blades does the NASA turbofan have?",
+      "rank": 3,
+      "top_chunk": "20100025863_p15_c1"
+    },
+    {
+      "id": "q07",
+      "question": "What was the worst case error in the verification tests on the thick blade?",
+      "rank": 1,
+      "top_chunk": "20100025863_p10_c4"
+    },
+    {
+      "id": "q08",
+      "question": "At what sampling rate was data acquired in the axial vane fan experiment?",
+      "rank": 1,
+      "top_chunk": "20100025863_p12_c1"
+    },
+    {
+      "id": "q09",
+      "question": "Why does the average tip clearance of the turbofan decrease as fan speed increases?",
+      "rank": 1,
+      "top_chunk": "20100025863_p14_c3"
+    },
+    {
+      "id": "q10",
+      "question": "How were the composite turbofan blades made measurable by the microwave sensors?",
+      "rank": 53,
+      "top_chunk": "20100025863_p8_c3"
+    },
+    {
+      "id": "q11",
+      "question": "What clearance measurement value is the NASA IVHM Project metric for this sensor technology?",
+      "rank": 1,
+      "top_chunk": "20100025863_p16_c7"
+    },
+    {
+      "id": "q12",
+      "question": "What maximum speed can the High Precision Spin Rig reach after its upgrade?",
+      "rank": 2,
+      "top_chunk": "20100015448_p6_c4"
+    },
+    {
+      "id": "q13",
+      "question": "How was a crack simulated on the turbine engine disk?",
+      "rank": 17,
+      "top_chunk": "20100015448_p1_c1"
+    },
+    {
+      "id": "q14",
+      "question": "What model was used to predict the vibration behavior of the disk-rotor system?",
+      "rank": 2,
+      "top_chunk": "20100015448_p7_c4"
+    },
+    {
+      "id": "q15",
+      "question": "How many blades did the simulated turbine disk have?",
+      "rank": 2,
+      "top_chunk": "19850018596_p14_c2"
+    },
+    {
+      "id": "q16",
+      "question": "What was the mass of the Haynes X-750 disks that were tested?",
+      "rank": 3,
+      "top_chunk": "20100015448_p9_c3"
+    },
+    {
+      "id": "q17",
+      "question": "At what speed did the titanium disk reach its yield level?",
+      "rank": 1,
+      "top_chunk": "20100015448_p9_c2"
+    },
+    {
+      "id": "q18",
+      "question": "What was the theoretically calculated first critical speed in the 5000 rpm test?",
+      "rank": 4,
+      "top_chunk": "20100015448_p11_c2"
+    },
+    {
+      "id": "q19",
+      "question": "Which test case gave the best crack detection results?",
+      "rank": 2,
+      "top_chunk": "20100015448_p18_c2"
+    },
+    {
+      "id": "q20",
+      "question": "At what rate were the capacitive displacement probes sampled?",
+      "rank": 1,
+      "top_chunk": "20100015448_p6_c5"
+    },
+    {
+      "id": "q21",
+      "question": "What is the pinch point in turbine tip clearance?",
+      "rank": 1,
+      "top_chunk": "20100029602_p11_c1"
+    },
+    {
+      "id": "q22",
+      "question": "How is the Burner Pattern Factor defined?",
+      "rank": 1,
+      "top_chunk": "20100029602_p10_c3"
+    },
+    {
+      "id": "q23",
+      "question": "What are the sensor requirements for active clearance control?",
+      "rank": 2,
+      "top_chunk": "20100029602_p9_c1"
+    },
+    {
+      "id": "q24",
+      "question": "What fraction of the air from the high pressure compressor is used to cool the high pressure turbine?",
+      "rank": 1,
+      "top_chunk": "20100029602_p11_c6"
+    },
+    {
+      "id": "q25",
+      "question": "What does FADEC stand for?",
+      "rank": 1,
+      "top_chunk": "20100029602_p14_c4"
+    },
+    {
+      "id": "q26",
+      "question": "What is the purpose of the tracking filter in model-based diagnostics?",
+      "rank": 1,
+      "top_chunk": "20100029602_p13_c4"
+    },
+    {
+      "id": "q27",
+      "question": "What are virtual sensors in a model-based engine control system?",
+      "rank": 1,
+      "top_chunk": "20100029602_p13_c4"
+    },
+    {
+      "id": "q28",
+      "question": "What are the two broad areas of universal requirements for sensors and actuators?",
+      "rank": 1,
+      "top_chunk": "20100029602_p15_c5"
+    },
+    {
+      "id": "q29",
+      "question": "How can active stall control extend the stable operating range of a compressor?",
+      "rank": 4,
+      "top_chunk": "20100029602_p7_c6"
+    },
+    {
+      "id": "q30",
+      "question": "Are new sensors or actuators needed to enable distributed engine control?",
+      "rank": 1,
+      "top_chunk": "20100029602_p15_c3"
+    },
+    {
+      "id": "q31",
+      "question": "How many general failure modes were found in the engine failure database?",
+      "rank": 1,
+      "top_chunk": "19850018596_p3_c2"
+    },
+    {
+      "id": "q32",
+      "question": "How many candidate sensors remained after screening?",
+      "rank": 1,
+      "top_chunk": "19850018596_p7_c1"
+    },
+    {
+      "id": "q33",
+      "question": "Which turbopump components were found most critical in limiting turbopump life?",
+      "rank": 2,
+      "top_chunk": "19850018596_p2_c3"
+    },
+    {
+      "id": "q34",
+      "question": "How many Unsatisfactory Condition Reports remained after the screening process?",
+      "rank": 1,
+      "top_chunk": "19850018596_p2_c3"
+    },
+    {
+      "id": "q35",
+      "question": "How does the fiberoptic pyrometer monitor turbine blades?",
+      "rank": 2,
+      "top_chunk": "19850018596_p15_c2"
+    },
+    {
+      "id": "q36",
+      "question": "What does the isotope wear detector measure?",
+      "rank": 4,
+      "top_chunk": "19850018596_p13_c2"
+    },
+    {
+      "id": "q37",
+      "question": "What four criteria were used to evaluate the signal processing algorithms?",
+      "rank": 1,
+      "top_chunk": "19850018596_p9_c2"
+    },
+    {
+      "id": "q38",
+      "question": "What speed was the bearing tester designed to reach?",
+      "rank": 14,
+      "top_chunk": "19850018596_p11_c3"
+    },
+    {
+      "id": "q39",
+      "question": "What speed does the turbine blade test simulate for the high pressure fuel turbopump?",
+      "rank": 11,
+      "top_chunk": "19850018596_p11_c2"
+    },
+    {
+      "id": "q40",
+      "question": "How many signal processing algorithms were evaluated?",
+      "rank": 1,
+      "top_chunk": "19850018596_p9_c2"
+    }
+  ]
+}
