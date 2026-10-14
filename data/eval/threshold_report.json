@@ -1,0 +1,86 @@
+{
+  "rows": [
+    {
+      "threshold": 0.2,
+      "answerable_kept": 0.9846153846153847,
+      "unanswerable_rejected": 0.45,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.0
+      }
+    },
+    {
+      "threshold": 0.25,
+      "answerable_kept": 0.9846153846153847,
+      "unanswerable_rejected": 0.5,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.09090909090909091
+      }
+    },
+    {
+      "threshold": 0.3,
+      "answerable_kept": 0.9846153846153847,
+      "unanswerable_rejected": 0.55,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.18181818181818182
+      }
+    },
+    {
+      "threshold": 0.35,
+      "answerable_kept": 0.9692307692307692,
+      "unanswerable_rejected": 0.55,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.18181818181818182
+      }
+    },
+    {
+      "threshold": 0.4,
+      "answerable_kept": 0.9538461538461539,
+      "unanswerable_rejected": 0.6,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.2727272727272727
+      }
+    },
+    {
+      "threshold": 0.45,
+      "answerable_kept": 0.8307692307692308,
+      "unanswerable_rejected": 0.8,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.6363636363636364
+      }
+    },
+    {
+      "threshold": 0.5,
+      "answerable_kept": 0.8,
+      "unanswerable_rejected": 0.85,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.7272727272727273
+      }
+    },
+    {
+      "threshold": 0.55,
+      "answerable_kept": 0.6153846153846154,
+      "unanswerable_rejected": 0.9,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.8181818181818182
+      }
+    },
+    {
+      "threshold": 0.6,
+      "answerable_kept": 0.4461538461538462,
+      "unanswerable_rejected": 0.95,
+      "per_category": {
+        "off_topic": 1.0,
+        "in_domain": 0.9090909090909091
+      }
+    }
+  ],
+  "suggested": 0.5
+}
