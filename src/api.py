@@ -25,6 +25,7 @@ class AskRequest(BaseModel):
 
 def format_response(response):
     hits = response["hits"]
+    shown = hits if response["found"] else hits[:1]
     return {
         "question": response["query"],
         "found": response["found"],
@@ -41,7 +42,7 @@ def format_response(response):
                 "page": hit["chunk"]["page"],
                 "score": round(hit["cosine"], 3),
             }
-            for hit in hits
+            for hit in shown
         ],
     }
 
