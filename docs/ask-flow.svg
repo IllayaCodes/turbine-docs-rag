@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555555"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="998" height="398" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="500" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222222">Answering a question</text>
+
+  <rect x="20" y="165" width="130" height="70" rx="10" fill="#fff4e0" stroke="#d98b1f" stroke-width="2"/>
+  <text x="85" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#6b4300">Question</text>
+  <text x="85" y="216" text-anchor="middle" font-size="12.5" fill="#333333">plain English</text>
+
+  <rect x="210" y="62" width="190" height="76" rx="10" fill="#e8f1fb" stroke="#3b82c4" stroke-width="2"/>
+  <text x="305" y="92" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f3b57">Embedding search</text>
+  <text x="305" y="114" text-anchor="middle" font-size="12.5" fill="#333333">finds similar meaning</text>
+
+  <rect x="210" y="262" width="190" height="76" rx="10" fill="#e8f1fb" stroke="#3b82c4" stroke-width="2"/>
+  <text x="305" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f3b57">Keyword search (BM25)</text>
+  <text x="305" y="314" text-anchor="middle" font-size="12.5" fill="#333333">finds the exact words</text>
+
+  <rect x="450" y="165" width="170" height="70" rx="10" fill="#e8f1fb" stroke="#3b82c4" stroke-width="2"/>
+  <text x="535" y="193" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f3b57">Merge the two</text>
+  <text x="535" y="213" text-anchor="middle" font-size="12.5" fill="#333333">rankings (top 5 chunks)</text>
+
+  <polygon points="735,140 835,200 735,260 635,200" fill="#fff4e0" stroke="#d98b1f" stroke-width="2"/>
+  <text x="735" y="194" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#6b4300">Best embedding</text>
+  <text x="735" y="212" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#6b4300">score 0.40 or more?</text>
+
+  <rect x="860" y="45" width="130" height="110" rx="10" fill="#e6f4ea" stroke="#2f9e5a" stroke-width="2"/>
+  <text x="925" y="72" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d5c3a">Found</text>
+  <text x="925" y="94" text-anchor="middle" font-size="12" fill="#333333">2 quoted sentences</text>
+  <text x="925" y="111" text-anchor="middle" font-size="12" fill="#333333">best passage</text>
+  <text x="925" y="128" text-anchor="middle" font-size="12" fill="#333333">file and page</text>
+
+  <rect x="860" y="245" width="130" height="110" rx="10" fill="#fdecea" stroke="#c0392b" stroke-width="2"/>
+  <text x="925" y="272" text-anchor="middle" font-size="15" font-weight="bold" fill="#8e2a20">Not found</text>
+  <text x="925" y="294" text-anchor="middle" font-size="12" fill="#333333">says so, shows only</text>
+  <text x="925" y="311" text-anchor="middle" font-size="12" fill="#333333">the closest source</text>
+
+  <polyline points="152,200 180,200 180,100 207,100" fill="none" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <polyline points="152,200 180,200 180,300 207,300" fill="none" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <polyline points="402,100 426,100 426,185 447,185" fill="none" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <polyline points="402,300 426,300 426,215 447,215" fill="none" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="622" y1="200" x2="632" y2="200" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <polyline points="735,140 735,100 857,100" fill="none" stroke="#2f9e5a" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <polyline points="735,260 735,300 857,300" fill="none" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="790" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f9e5a">yes</text>
+  <text x="790" y="322" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">no</text>
+
+  <text x="500" y="385" text-anchor="middle" font-size="13" fill="#555555">Code: retrieve.py does the search and merge, ask.py picks the sentences and applies the threshold, api.py serves it</text>
+</svg>

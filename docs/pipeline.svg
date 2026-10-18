@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" width="960" height="230" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555555"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="958" height="228" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="480" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#222222">Building the search index (run once)</text>
+
+  <rect x="20" y="62" width="150" height="92" rx="10" fill="#e8f1fb" stroke="#3b82c4" stroke-width="2"/>
+  <rect x="207" y="62" width="150" height="92" rx="10" fill="#e8f1fb" stroke="#3b82c4" stroke-width="2"/>
+  <rect x="394" y="62" width="150" height="92" rx="10" fill="#e8f1fb" stroke="#3b82c4" stroke-width="2"/>
+  <rect x="581" y="62" width="150" height="92" rx="10" fill="#e8f1fb" stroke="#3b82c4" stroke-width="2"/>
+  <rect x="768" y="62" width="150" height="92" rx="10" fill="#e6f4ea" stroke="#2f9e5a" stroke-width="2"/>
+
+  <circle cx="34" cy="62" r="12" fill="#3b82c4"/>
+  <circle cx="221" cy="62" r="12" fill="#3b82c4"/>
+  <circle cx="408" cy="62" r="12" fill="#3b82c4"/>
+  <circle cx="595" cy="62" r="12" fill="#3b82c4"/>
+  <circle cx="782" cy="62" r="12" fill="#2f9e5a"/>
+  <text x="34" y="67" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">1</text>
+  <text x="221" y="67" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">2</text>
+  <text x="408" y="67" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">3</text>
+  <text x="595" y="67" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">4</text>
+  <text x="782" y="67" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">5</text>
+
+  <text x="95" y="94" text-anchor="middle" font-size="17" font-weight="bold" fill="#1f3b57">Read</text>
+  <text x="95" y="116" text-anchor="middle" font-size="12.5" fill="#333333">PDF text, page by page</text>
+  <text x="95" y="134" text-anchor="middle" font-size="12.5" fill="#333333">fallback for bad scans</text>
+
+  <text x="282" y="94" text-anchor="middle" font-size="17" font-weight="bold" fill="#1f3b57">Clean</text>
+  <text x="282" y="116" text-anchor="middle" font-size="12.5" fill="#333333">headers, hyphens,</text>
+  <text x="282" y="134" text-anchor="middle" font-size="12.5" fill="#333333">references, form pages</text>
+
+  <text x="469" y="94" text-anchor="middle" font-size="17" font-weight="bold" fill="#1f3b57">Chunk</text>
+  <text x="469" y="116" text-anchor="middle" font-size="12.5" fill="#333333">up to 150 words,</text>
+  <text x="469" y="134" text-anchor="middle" font-size="12.5" fill="#333333">sentence boundaries</text>
+
+  <text x="656" y="94" text-anchor="middle" font-size="17" font-weight="bold" fill="#1f3b57">Embed</text>
+  <text x="656" y="116" text-anchor="middle" font-size="12.5" fill="#333333">384 numbers per chunk</text>
+  <text x="656" y="134" text-anchor="middle" font-size="12.5" fill="#333333">(MiniLM model)</text>
+
+  <text x="843" y="94" text-anchor="middle" font-size="17" font-weight="bold" fill="#1d5c3a">Search index</text>
+  <text x="843" y="116" text-anchor="middle" font-size="12.5" fill="#333333">vectors plus keyword</text>
+  <text x="843" y="134" text-anchor="middle" font-size="12.5" fill="#333333">index (BM25)</text>
+
+  <line x1="172" y1="108" x2="204" y2="108" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="359" y1="108" x2="391" y2="108" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="546" y1="108" x2="578" y2="108" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="733" y1="108" x2="765" y2="108" stroke="#555555" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <text x="95" y="178" text-anchor="middle" font-size="13" font-family="Consolas, Courier New, monospace" fill="#555555">read_pdf.py</text>
+  <text x="282" y="178" text-anchor="middle" font-size="13" font-family="Consolas, Courier New, monospace" fill="#555555">clean_text.py</text>
+  <text x="469" y="178" text-anchor="middle" font-size="13" font-family="Consolas, Courier New, monospace" fill="#555555">chunk_text.py</text>
+  <text x="656" y="178" text-anchor="middle" font-size="13" font-family="Consolas, Courier New, monospace" fill="#555555">build_index.py</text>
+  <text x="843" y="178" text-anchor="middle" font-size="13" font-family="Consolas, Courier New, monospace" fill="#555555">retrieve.py</text>
+
+  <text x="480" y="213" text-anchor="middle" font-size="14" fill="#444444">4 NASA reports (87 pages) become 234 searchable chunks</text>
+</svg>
