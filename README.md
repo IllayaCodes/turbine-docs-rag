@@ -68,7 +68,7 @@ I used Windows and Python 3.14. Run everything from the project folder.
 
 1. Create a virtual environment: <code>py -m venv venv</code>
 2. Activate it: <code>venv\Scripts\activate</code>
-3. Install the packages: <code>pip install pymupdf pdfplumber sentence-transformers rank-bm25 fastapi uvicorn httpx pytest</code>
+3. Install the packages: <code>pip install -r requirements.txt</code> (to get the exact versions I used, run <code>pip install -r requirements-lock.txt</code> instead)
 4. Make the folder for the reports: <code>mkdir data\raw</code>
 5. Download the four reports with the commands above.
 
@@ -165,6 +165,7 @@ I built this with Claude as a tutor and pair programmer. It explained each step 
 | | <code>data/eval/</code> | question sets and saved results |
 | | <code>docs/</code> | the two diagrams above |
 | | <code>pytest.ini</code> | test settings |
+| | <code>requirements.txt</code> | the packages the project needs |
 
 ## What I want to do next
 
